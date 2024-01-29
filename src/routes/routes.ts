@@ -1,9 +1,9 @@
 // src/routes/routes.ts
 import express from 'express';
-import { getResultados } from '../controllers/controller';
+import { getFiltros as getRetorno } from '../controllers/controller';
 
 const router = express.Router();
 
-router.get('/api/resultados', getResultados);
+router.get('/api/Retorno', getRetorno);
 
 export default router;
